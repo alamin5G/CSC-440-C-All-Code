@@ -1,0 +1,14 @@
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\bin\Debug\net9.0\MyFirstLab.exe
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\bin\Debug\net9.0\MyFirstLab.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\bin\Debug\net9.0\MyFirstLab.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\bin\Debug\net9.0\MyFirstLab.dll
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\bin\Debug\net9.0\MyFirstLab.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.dll
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\refint\MyFirstLab.dll
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\ref\MyFirstLab.dll
