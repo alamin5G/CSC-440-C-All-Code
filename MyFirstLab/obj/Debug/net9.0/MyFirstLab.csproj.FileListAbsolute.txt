@@ -12,3 +12,4 @@ C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\
 C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.pdb
 C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.genruntimeconfig.cache
 C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\ref\MyFirstLab.dll
+C:\Users\alami\OneDrive\Documents\CSC-440 C# DotNet\MyFirstLab\obj\Debug\net9.0\MyFirstLab.sourcelink.json
