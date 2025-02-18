@@ -16,7 +16,7 @@ namespace MyPackage {
             JaggedArray jaggedArray1 = new JaggedArray(jaggedArray);
             Console.WriteLine("Length of the jagged array is: " + jaggedArray.Length);
             Console.WriteLine("Rank of the jagged array is: " + jaggedArray.Rank);
-            Console.WriteLine("Length of the jagged array at 1 is: " + jaggedArray[1].Length);
+            Console.WriteLine("Length of the jagged array is: " + jaggedArray.Length);
             Console.WriteLine("Sum of the jagged array is: " + jaggedArray1.sumOfJaggedArray());
 
         }
