@@ -5,6 +5,7 @@ namespace MyPackage {
 {
         static void Main(String[] args)
         {
+            /*
             int[] arr = { 1, 2, 3, 4, 5 };
             ArrayPractice arrayPractice = new ArrayPractice(arr);
             Console.WriteLine("Sum of the array is: " + arrayPractice.sumOfArray());
@@ -19,6 +20,23 @@ namespace MyPackage {
             Console.WriteLine("Length of the jagged array is: " + jaggedArray.Length);
             Console.WriteLine("Sum of the jagged array is: " + jaggedArray1.sumOfJaggedArray());
 
+*/
+            Console.WriteLine("Enter the size of the array: ");
+            int size = Convert.ToInt32(Console.ReadLine());
+            int[] arr = new int[size];
+            Console.WriteLine("Enter the elements of the array: ");
+            for (int i = 0; i < size; i++){
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            ArrayInput arrayInput = new ArrayInput();
+            arrayInput.printArray(arr);
+            arrayInput.reverseArray(arr);
+            arrayInput.printArray(arr);
+            int[] uniqArray = arrayInput.removeDuplicateElement(arr);
+            arrayInput.printArray(uniqArray);
+            Console.WriteLine("Max element of the array is: " + arrayInput.findMaxElement(arr));
+            Console.WriteLine("Min element of the array is: " + arrayInput.findMinElement(arr));
+            arrayInput.frequencyCount(arr);
         }
     }
 }
