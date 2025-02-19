@@ -1,8 +1,9 @@
 ﻿using MyProject;
 
-namespace MyPackage { 
-    public class myClass
+namespace MyPackage
 {
+    public class myClass
+    {
         static void Main(String[] args)
         {
             /*
@@ -20,24 +21,71 @@ namespace MyPackage {
             Console.WriteLine("Length of the jagged array is: " + jaggedArray.Length);
             Console.WriteLine("Sum of the jagged array is: " + jaggedArray1.sumOfJaggedArray());
 
-*/
-            Console.WriteLine("Enter the size of the array: ");
+            */
+            /*
+             Console.WriteLine("Enter the size of the array: ");
+             int size = Convert.ToInt32(Console.ReadLine());
+             int[] arr = new int[size];
+             Console.WriteLine("Enter the elements of the array: ");
+             for (int i = 0; i < size; i++){
+                 arr[i] = Convert.ToInt32(Console.ReadLine());
+             }
+             ArrayInput arrayInput = new ArrayInput();
+             arrayInput.printArray(arr);
+             arrayInput.reverseArray(arr);
+             arrayInput.printArray(arr);
+             int[] uniqArray = arrayInput.removeDuplicateElement(arr);
+             arrayInput.printArray(uniqArray);
+             Console.WriteLine("Max element of the array is: " + arrayInput.findMaxElement(arr));
+             Console.WriteLine("Min element of the array is: " + arrayInput.findMinElement(arr));
+             arrayInput.frequencyCount(arr);
+             */
+
+            Console.Write("Set Jagged Array size: ");
             int size = Convert.ToInt32(Console.ReadLine());
-            int[] arr = new int[size];
-            Console.WriteLine("Enter the elements of the array: ");
-            for (int i = 0; i < size; i++){
-                arr[i] = Convert.ToInt32(Console.ReadLine());
+            int[][] jA = new int[size][];
+
+            for (int i = 0; i < size; i++)
+            {
+                Console.Write("Initialize the size of the jA[" + i + "]:");
+                int a = Convert.ToInt32(Console.ReadLine());
+                jA[i] = new int[a];
             }
-            ArrayInput arrayInput = new ArrayInput();
-            arrayInput.printArray(arr);
-            arrayInput.reverseArray(arr);
-            arrayInput.printArray(arr);
-            int[] uniqArray = arrayInput.removeDuplicateElement(arr);
-            arrayInput.printArray(uniqArray);
-            Console.WriteLine("Max element of the array is: " + arrayInput.findMaxElement(arr));
-            Console.WriteLine("Min element of the array is: " + arrayInput.findMinElement(arr));
-            arrayInput.frequencyCount(arr);
+
+
+            Console.WriteLine("Now we are going to pass the jagged array to the function");
+            inputAndPrintJaggedArray(jA);
+
+        }
+
+
+
+        public static void inputAndPrintJaggedArray(int[][] jaggedArray)
+        {
+            Console.WriteLine("Enter the elements of the jagged array: ");
+            for (int i = 0; i < jaggedArray.Length; i++)
+            {
+                for (int j = 0; j < jaggedArray[i].Length; j++)
+                {
+                    Console.Write("Enter the element of the jaggedArray[" + i + "][" + j + "]: ");
+                    jaggedArray[i][j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+
+            Console.WriteLine("Printing the jagged array: ");
+            for (int i = 0; i < jaggedArray.Length; i++)
+            {
+                for (int j = 0; j < jaggedArray[i].Length; j++)
+                {
+                    Console.Write(jaggedArray[i][j] + " ");
+                }
+                Console.WriteLine();
+
+
+            }
+
         }
     }
+
 }
 
