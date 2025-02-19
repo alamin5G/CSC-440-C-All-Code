@@ -41,6 +41,7 @@ namespace MyPackage
              arrayInput.frequencyCount(arr);
              */
 
+            /*
             Console.Write("Set Jagged Array size: ");
             int size = Convert.ToInt32(Console.ReadLine());
             int[][] jA = new int[size][];
@@ -55,6 +56,19 @@ namespace MyPackage
 
             Console.WriteLine("Now we are going to pass the jagged array to the function");
             inputAndPrintJaggedArray(jA);
+
+            */
+
+
+
+            Level level = Level.Low;
+            Console.WriteLine("The level is: " + level);
+
+            Console.Write("Enter the level in int format: (eg. 0, 1, 2, 3): ");
+            int l = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The level is: " + (Level)l);
+            
+
 
         }
 
@@ -88,4 +102,13 @@ namespace MyPackage
     }
 
 }
+
+public enum Level {
+        Low, // 0
+        Medium, // 1
+        High, // 2
+
+        VeryHigh // 3
+
+    }
 
