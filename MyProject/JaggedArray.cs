@@ -8,9 +8,20 @@ namespace MyProject
     public class JaggedArray
     {
         int[][] jaggedArray;
+
+        public JaggedArray()
+        {
+        }
         public JaggedArray(int[][] jaggedArray)
         {
             this.jaggedArray = jaggedArray;
+        }
+
+
+
+        public static void inputAndPrintJaggedArray(int[][] jaggedArray){
+            
+
         }
 
         public int sumOfJaggedArray()

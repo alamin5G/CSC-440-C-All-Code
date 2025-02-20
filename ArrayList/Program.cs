@@ -2,7 +2,7 @@
 
 class MyClass{
     static void Main(string[] args){
-        int[,] arr = {
+        int[,] arr = new int[,]{ 
             {1, 2, 3},
             {4, 5, 6},
             {7, 8, 9}
@@ -12,13 +12,15 @@ class MyClass{
         //print the 2d array size
         Console.WriteLine("The 2d array size is: " + arr.Length);
         // Display the 2d array elements
+        /*
         for(int i = 0; i < arr.Length; i++){
         
-            for(int j = 0; j < arr.GetLength(1); j++){
+            for(int j = 0; j < arr[i].Length; j++){
                 Console.Write(arr[i, j] + " ");
             }
             Console.WriteLine();
         }
+        */
 
         Console.WriteLine("======================");
 
