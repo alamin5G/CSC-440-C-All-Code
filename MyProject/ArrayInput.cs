@@ -28,6 +28,16 @@ class ArrayInput {
         return arr.Min();
     }
 
+    public int findSum(int[] arr){
+        return arr.Sum();
+    }
+
+   public int[] sortedArray(int[] arr){
+        Array.Sort(arr);
+        return arr;
+    }
+
+
     public void frequencyCount(int[] arr){
         Dictionary<int, int> map = new Dictionary<int, int>();
         foreach(int i in arr){
