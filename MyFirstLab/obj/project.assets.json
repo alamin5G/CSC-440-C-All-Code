@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyFirstLab\\MyFirstLab.csproj",
+      "projectUniqueName": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440 C# DotNet\\MyFirstLab\\MyFirstLab.csproj",
       "projectName": "MyFirstLab",
-      "projectPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyFirstLab\\MyFirstLab.csproj",
+      "projectPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440 C# DotNet\\MyFirstLab\\MyFirstLab.csproj",
       "packagesPath": "C:\\Users\\alami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyFirstLab\\obj\\",
+      "outputPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440 C# DotNet\\MyFirstLab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
