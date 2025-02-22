@@ -6,6 +6,8 @@ class EnumPractice{
         Medium, // 1
         High, // 2
 
+        ExtraHigh = 10, // 3
+
         VeryHigh // 3
 
     }
