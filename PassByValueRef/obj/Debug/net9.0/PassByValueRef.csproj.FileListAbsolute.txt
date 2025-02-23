@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\bin\Debug\net9.0\PassByValueRef.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\bin\Debug\net9.0\PassByValueRef.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\bin\Debug\net9.0\PassByValueRef.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\bin\Debug\net9.0\PassByValueRef.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\bin\Debug\net9.0\PassByValueRef.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\PassByValueRef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\PassByValueRef.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\PassByValueRef.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\PassByValueRef.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\PassByValueRef.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\PassByValueRef.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\refint\PassByValueRef.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\PassByValueRef.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\PassByValueRef.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\PassByValueRef\obj\Debug\net9.0\ref\PassByValueRef.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\MyProject.csproj": {}
+    "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\PassByValueRef\\PassByValueRef.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\MyProject.csproj": {
+    "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\PassByValueRef\\PassByValueRef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\MyProject.csproj",
-        "projectName": "MyProject",
-        "projectPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\MyProject.csproj",
+        "projectUniqueName": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\PassByValueRef\\PassByValueRef.csproj",
+        "projectName": "PassByValueRef",
+        "projectPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\PassByValueRef\\PassByValueRef.csproj",
         "packagesPath": "C:\\Users\\alami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\obj\\",
+        "outputPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\PassByValueRef\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

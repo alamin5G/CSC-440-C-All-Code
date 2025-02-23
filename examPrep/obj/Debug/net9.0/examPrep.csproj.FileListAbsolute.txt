@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\bin\Debug\net9.0\examPrep.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\bin\Debug\net9.0\examPrep.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\bin\Debug\net9.0\examPrep.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\bin\Debug\net9.0\examPrep.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\bin\Debug\net9.0\examPrep.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\examPrep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\examPrep.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\examPrep.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\examPrep.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\examPrep.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\examPrep.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\refint\examPrep.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\examPrep.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\examPrep.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\examPrep\obj\Debug\net9.0\ref\examPrep.dll
