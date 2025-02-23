@@ -11,8 +11,11 @@ namespace MyFirstLab
         
         static void Main(string[] args)
         {
-           jaggedArray();
-            
+            InventorySystem inventorySystem = new InventorySystem();
+            inventorySystem.addInventory(1, 10);
+            inventorySystem.addInventory(2, 20);
+            inventorySystem.removeInventory(2, 11);
+            inventorySystem.findLowInventory();
         }
 
         private static void singleArray(){

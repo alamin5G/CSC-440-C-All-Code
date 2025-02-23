@@ -81,7 +81,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problem reading the cache file C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "Problem reading the cache file C:\\Users\\alami\\OneDrive\\Documents\\CSC-440 C# DotNet\\MyProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> 88307a7020269c52aebefb199987ea8eceba0a16
     }
   ]
 }
