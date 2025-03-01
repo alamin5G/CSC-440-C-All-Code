@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "WamZ0Q9AlJo=",
+=======
   "dgSpecHash": "J88KM8nmVqo=",
+>>>>>>> 4c554579013eb36ff0e80f48f75567dc65c4ebf6
   "success": true,
   "projectFilePath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440 C# DotNet\\MyProject\\MyProject.csproj",
   "expectedPackageFiles": [],
@@ -9,7 +13,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
+      "message": "Problem reading the cache file C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
       "message": "Problem reading the cache file C:\\Users\\alami\\OneDrive\\Documents\\CSC-440 C# DotNet\\MyProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> 4c554579013eb36ff0e80f48f75567dc65c4ebf6
     }
   ]
 }
