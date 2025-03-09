@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "MyLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MyLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyLib/1.0.0": {
+      "type": "project",
+      "path": "../MyLib/MyLib.csproj",
+      "msbuildProject": "../MyLib/MyLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "MyLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\alami\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\MyProject.csproj",
-      "projectName": "MyProject",
-      "projectPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\MyProject.csproj",
+      "projectUniqueName": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\C#\\MyApp\\MyApp.csproj",
+      "projectName": "MyApp",
+      "projectPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\C#\\MyApp\\MyApp.csproj",
       "packagesPath": "C:\\Users\\alami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\obj\\",
+      "outputPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\C#\\MyApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,7 +57,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\C#\\MyLib\\MyLib.csproj": {
+              "projectPath": "C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\C#\\MyLib\\MyLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -75,13 +98,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\alami\\OneDrive\\Documents\\CSC-440-C-All-Code\\MyProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
