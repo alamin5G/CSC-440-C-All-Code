@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\bin\Debug\net9.0\umlshape.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\bin\Debug\net9.0\umlshape.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\bin\Debug\net9.0\umlshape.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\bin\Debug\net9.0\umlshape.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\bin\Debug\net9.0\umlshape.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\umlshape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\umlshape.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\umlshape.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\umlshape.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\umlshape.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\umlshape.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\refint\umlshape.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\umlshape.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\umlshape.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\umlshape\obj\Debug\net9.0\ref\umlshape.dll
