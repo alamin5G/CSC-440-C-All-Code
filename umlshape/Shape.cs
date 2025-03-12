@@ -19,7 +19,7 @@ class Shape{
         set { filled = value;}
     }
 
-    public double CalculateArea(){
+    public virtual double CalculateArea(){
         return 0;
     }
 }

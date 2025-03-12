@@ -11,6 +11,38 @@ namespace MyFirstLab
         
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter the type of input you want to provide: ");
+            Console.WriteLine("1. Integer type input");
+            Console.WriteLine("2. String type input");
+            Console.WriteLine("3. Double type input");
+            Console.WriteLine("4. Boolean type input");
+            int choice = Convert.ToInt32(Console.ReadLine());
+            switch(choice){
+                case 1:
+                    Console.Write("Enter the integer value: ");
+                    int intVal = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("The integer value is: " + intVal);
+                    break;
+                case 2:
+                    Console.Write("Enter the string value: ");
+                    string strVal = Console.ReadLine();
+                    Console.WriteLine("The string value is: " + strVal);
+                    break;
+                case 3:
+                    Console.Write("Enter the double value: ");
+                    double doubleVal = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("The double value is: " + doubleVal);
+                    break;
+                case 4:
+                    Console.Write("Enter the boolean value: ");
+                    bool boolVal = Convert.ToBoolean(Console.ReadLine());
+                    Console.WriteLine("The boolean value is: " + boolVal);
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice");
+                    break;
+            }
+            //singleArray();
             InventorySystem inventorySystem = new InventorySystem();
             inventorySystem.addInventory(1, 10);
             inventorySystem.addInventory(2, 20);
