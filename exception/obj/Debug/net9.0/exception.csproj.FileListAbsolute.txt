@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\bin\Debug\net9.0\exception.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\bin\Debug\net9.0\exception.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\bin\Debug\net9.0\exception.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\bin\Debug\net9.0\exception.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\bin\Debug\net9.0\exception.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\exception.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\exception.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\exception.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\exception.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\exception.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\refint\exception.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\exception.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\exception.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\exception\obj\Debug\net9.0\ref\exception.dll

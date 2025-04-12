@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\bin\Debug\net9.0\delegate.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\bin\Debug\net9.0\delegate.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\bin\Debug\net9.0\delegate.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\bin\Debug\net9.0\delegate.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\bin\Debug\net9.0\delegate.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\delegate.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\delegate.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\delegate.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\delegate.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\delegate.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\refint\delegate.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\delegate.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\delegate.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\delegate\obj\Debug\net9.0\ref\delegate.dll
