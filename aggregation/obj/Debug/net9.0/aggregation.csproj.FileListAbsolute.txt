@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\aggregation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\aggregation.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\aggregation.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\aggregation.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\aggregation.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\bin\Debug\net9.0\aggregation.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\bin\Debug\net9.0\aggregation.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\bin\Debug\net9.0\aggregation.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\bin\Debug\net9.0\aggregation.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\bin\Debug\net9.0\aggregation.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\aggregation.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\refint\aggregation.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\aggregation.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\aggregation.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\aggregation\obj\Debug\net9.0\ref\aggregation.dll

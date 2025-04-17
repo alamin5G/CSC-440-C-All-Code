@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\bin\Debug\net9.0\InheritPrac.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\bin\Debug\net9.0\InheritPrac.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\bin\Debug\net9.0\InheritPrac.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\bin\Debug\net9.0\InheritPrac.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\bin\Debug\net9.0\InheritPrac.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\InheritPrac.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\InheritPrac.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\InheritPrac.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\InheritPrac.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\InheritPrac.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\InheritPrac.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\refint\InheritPrac.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\InheritPrac.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\InheritPrac.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\InheritPrac\obj\Debug\net9.0\ref\InheritPrac.dll
