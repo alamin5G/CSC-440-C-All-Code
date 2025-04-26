@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\linqPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\linqPractice.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\linqPractice.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\linqPractice.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\linqPractice.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\bin\Debug\net9.0\linqPractice.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\bin\Debug\net9.0\linqPractice.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\bin\Debug\net9.0\linqPractice.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\bin\Debug\net9.0\linqPractice.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\bin\Debug\net9.0\linqPractice.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\linqPractice.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\refint\linqPractice.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\linqPractice.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\linqPractice.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\linqPractice\obj\Debug\net9.0\ref\linqPractice.dll
