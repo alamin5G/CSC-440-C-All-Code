@@ -181,7 +181,6 @@ This list outlines the defined web endpoints, their HTTP methods, purpose, and r
 
 This list covers the endpoints we've explicitly defined or implemented controllers for. Remember that Spring Security handles `/login` (POST) and `/logout` (POST) implicitly based on configuration unless customized heavily. Static resources (`/css/**`, `/js/**`, `/images/**`, etc.) are handled by resource handlers, not specific controller endpoints.
 
-
 # Data Flow Diagram
 
 **Level 1 DFD Processes for Electronics Store:**
@@ -315,5 +314,181 @@ This list covers the endpoints we've explicitly defined or implemented controlle
 * Data Flows In: Request for Dashboard
 * Data Flows Out: Dashboard View with Statistics (Counts, Revenue), Recent Orders List
 * Data Stores Accessed: User Store (Read - count), Product Store (Read - count), Order Store (Read - count, sum, list), Category Store (Read - count), Brand Store (Read - count)
+
+---
+
+### PRESENTATION SLIDE
+
+## Slide 1: Title Slide
+
+* **Title:** Electronics Store: A Full-Stack E-commerce Platform
+* **Course:** CSC 470 - Final Project Presentation
+* **Group Members:** [List Your Group Members Here]
+* **Date:** [Date of Presentation]
+* **(Optional):** University Logo / Course Logo
+
+---
+
+## Slide 2: Project Overview & Objectives
+
+* **Goal:** To design and develop a functional, secure, and user-friendly e-commerce platform for selling electronics online.
+* **Core Purpose:** Provide a seamless shopping experience for users and efficient management tools for administrators.
+* **Key Functional Areas:**
+  * User Authentication & Profile Management
+  * Product Catalog Browsing, Searching & Filtering
+  * Shopping Cart & Multi-Step Checkout Process
+  * Order Placement & History Viewing
+  * Admin Management (Products, Categories, Brands, Warranties, Orders, Users)
+* **Target Users:** Anonymous Visitors, Registered Customers, Administrators.
+
+---
+
+## Slide 3: Technology Stack (Relates to A1: Resources)
+
+* **Backend:** Java, Spring Boot 3+, Spring MVC, Spring Data JPA (Hibernate), Spring Security
+* **Frontend:** Thymeleaf (Server-Side Rendering), HTML5, CSS3, Bootstrap 5, JavaScript (Minimal/Standard Bootstrap JS)
+* **Database:** MySQL
+* **Key Libraries:** Lombok, ModelMapper, Jakarta Validation
+* **Build Tool:** Maven / Gradle (Specify which one you used)
+* **Development Tools:** Git, IntelliJ IDEA / Eclipse, MySQL Workbench / DBeaver
+* **Deployment (Conceptual):** Embedded Tomcat Server
+* **(Talking Point):** Discuss *why* this stack was chosen (e.g., robustness of Spring Boot, rapid development, large community support, suitability of relational DB for e-commerce data, Thymeleaf for server-side rendering preference). This demonstrates understanding of resource selection (A1).
+
+---
+
+## Slide 4: System Architecture (Relates to A2: Interaction, P7: Interdependence)
+
+* **(Diagram Recommended):** Include a simple Layered Architecture Diagram (Presentation -> Controller -> Service -> Repository -> Database).
+* **Presentation Layer:** Thymeleaf templates (`*.html`) rendering dynamic HTML based on data from Controllers. Bootstrap 5 for styling and layout.
+* **Controller Layer (`@Controller`, `@RestController`):** Handles HTTP requests, validates input (using DTOs), interacts with Service layer, prepares data (`Model`) for the View. (e.g., `ProductController`, `AdminProductController`, `UserController`).
+* **Service Layer (`@Service`):** Encapsulates core business logic, orchestrates operations, manages transactions (`@Transactional`), interacts with Repositories. (e.g., `ProductService`, `OrderService`, `UserService`). Decouples Controllers from data access details.
+* **Data Access Layer (`@Repository`):** Spring Data JPA interfaces (`JpaRepository`) interacting with the database via Hibernate ORM. Defines entities (`@Entity`) mapped to database tables. (e.g., `ProductRepository`, `OrderRepository`).
+* **Database Layer (MySQL):** Persistent storage for all application data (Users, Products, Orders, etc.).
+* **Cross-Cutting Concerns:**
+
+  * **Security (Spring Security):** Integrated across layers via filter chains and method security (`@PreAuthorize`).
+  * **DTOs:** Used as data carriers between layers (Controller <-> Service, Service -> View via Model) to ensure separation and tailor data.
+* **(Talking Point):** Explain how requests flow through these layers (e.g., adding to cart). Highlight the separation of concerns and how components depend on each other (P7). Discuss how this structure helps manage interactions (A2).
+
+---
+
+## Slide 5: Core Features - User Workflow (Relates to Design/Dev of Solutions)
+
+* **(Diagram Recommended):** Simple flowchart of the main user journey (Browse -> View Details -> Add to Cart -> Checkout -> Place Order -> Confirmation -> Order History).
+* **Browsing/Filtering/Search:** Public access, uses `ProductController`, `ProductService`, `ProductRepository` with pagination (`Pageable`) and dynamic filtering.
+* **Registration/Login:** Secure process using Spring Security, `UserService`, `PasswordEncoder`, email verification flow (token generation/validation).
+* **Profile/Address Management:** Authenticated users manage data via `UserController`, `UserService`, `AddressService` (if separated), using DTOs for updates. Sidebar navigation (`user-sidebar` fragment).
+* **Cart Management:** Authenticated users interact via `CartController` and `CartService`. `ShoppingCartItem` entity stores cart state. Stock checks performed.
+* **Checkout:** Multi-step process managed by `CheckoutController` using session-scoped `CheckoutDto`. Involves `UserService` (for addresses) and `CartService`.
+* **Order Placement:** Triggered by `CheckoutController`, executed by `OrderService.placeOrder` within a transaction, updating `Order`, `OrderItem`, `Product` (stock), and clearing the cart.
+* **Order Viewing:** Authenticated users view history/details via `OrderController` and `OrderService`.
+* **(Talking Point):** Emphasize how these features meet the core requirements of an e-commerce platform. Mention specific requirements from the document and how the implemented feature addresses it.
+
+---
+
+## Slide 6: Core Features - Admin Workflow (Relates to Design/Dev of Solutions)
+
+* **Secure Access:** `/admin/**` paths protected by Spring Security (`hasRole('ADMIN')`).
+* **Dashboard:** Central overview (`AdminDashboardController`) fetching stats via various services (`countTotalUsers`, `countTotalOrders`, etc.).
+* **CRUD Operations:** Dedicated controllers (`AdminProductController`, `AdminCategoryController`, etc.) for managing Products, Categories, Brands, Warranties.
+
+  * Use DTOs (`ProductDto`, `BrandDto`, etc.) for forms (`@Valid`, `BindingResult`).
+  * Service layer handles business logic, validation (e.g., duplicate names), and repository interactions.
+  * Image/Logo uploads handled in services, paths stored in entities.
+* **Order Management:** Admins view all orders (`AdminOrderController`, `OrderService.getAllOrders`), filter by status, view details, update order status, update payment details (status, TrxID), and cancel orders.
+* **User Management:** Admins view all users (`AdminUserController`, `UserService.getAllUsers`), view details, toggle enabled status, and update roles (`RoleRepository` used to fetch roles).
+* **(Talking Point):** Explain how these features provide necessary control and oversight for store administrators, fulfilling specific administrative requirements.
+
+---
+
+## Slide 7: Analysis - A1: Range of Resources (Examples)
+
+* **Human:** Backend (Spring, JPA, Security), Frontend (Thymeleaf, Bootstrap), QA (Testing flows), PM (Coordination). *Challenge: Ensuring effective communication between backend/frontend.*
+* **Technical:** Java 17+, Spring Boot 3+, Spring Data JPA, Spring Security, Thymeleaf, MySQL, Maven/Gradle, Git, Bootstrap 5, ModelMapper, Lombok. *Challenge: Managing dependencies and versions.*
+* **Infrastructure:** Dev Machines, Hosting Server (Cloud/On-prem), Database Server/Service, Network. *Challenge: Ensuring environment consistency (Dev/Test/Prod).*
+* **Data:** User credentials (hashed), Product Catalog, Order History, Addresses, Session data (`CheckoutDto`). *Challenge: Data security, privacy compliance, schema evolution.*
+* **Interaction Example:** A backend developer changes a `Product` entity field. This requires updating the `ProductDto`, the `ProductService` mapping, the `AdminProductController` handling, and the Thymeleaf template (`admin/product-form.html`) used by the frontend developer. Git helps manage code changes, but communication is key.
+
+*(Expand with more specific examples and challenges encountered).*
+
+---
+
+## Slide 8: Analysis - A2: Level of Interaction (Examples)
+
+* **Frontend <-> Backend:**
+  * *Problem:* Thymeleaf form (`th:object`) expecting fields not present in the submitted DTO (e.g., `email` in `UserProfileUpdateDto`).
+  * *Resolution:* Refining DTOs for specific use cases, ensuring controller passes the correct object, using separate DTOs for display vs. update where necessary. Displaying read-only data from a different model attribute (`userProfileDisplay`).
+* **Service <-> Data Layer:**
+  * *Problem:* `ConstraintViolationException` when saving `Address` during registration due to `user_id` being null (premature cascade).
+  * *Resolution:* Modified `UserService.registerUser` to save `User` first, then explicitly set the saved `User` on the `Address` *before* saving the `Address`. Managed transaction boundaries with `@Transactional`.
+  * *Problem:* Ensuring atomicity during `placeOrder` (updating stock, creating order/items, clearing cart).
+  * *Resolution:* Using `@Transactional` on the `OrderService.placeOrder` method ensures all database operations succeed or roll back together. Added explicit stock checks within the transaction.
+* **Security <-> Application:**
+  * *Problem:* Static resources (CSS, images) blocked by security rules.
+  * *Resolution:* Explicitly adding `/css/**`, `/product-images/**`, etc., to `permitAll()` rules in `SecurityConfig`.
+  * *Problem:* Ensuring only Admins can access `/admin/**` URLs.
+  * *Resolution:* Using `requestMatchers("/admin/**").hasRole("ADMIN")` in `SecurityConfig` and `@PreAuthorize("hasRole('ADMIN')")` on admin controllers.
+
+*(Expand with specific examples of debugging interactions, how DTOs helped, how transactions were managed, and specific security configurations).*
+
+---
+
+## Slide 9: Analysis - A5: Familiarity (Examples)
+
+* **Unfamiliar Frameworks/Concepts:**
+  * Spring Boot IoC/DI: Understanding bean lifecycle, scopes, `@Autowired`.
+  * Spring Data JPA: Entity mapping, relationships (`mappedBy`, `CascadeType`, `FetchType`), derived queries, `@Transactional`. *Challenge Example: Debugging `LazyInitializationException` required understanding fetch types.*
+  * Spring Security: `SecurityFilterChain`, `UserDetailsService`, `PasswordEncoder`, authorization rules. *Challenge Example: Configuring `formLogin()` and public/protected URL patterns correctly.*
+  * Thymeleaf: Syntax (`th:*`), expression utilities (`#fields`, `#authorization`), layout dialect. *Challenge Example: Resolving errors related to using `#request` or duplicate attributes.*
+* **Unfamiliar Patterns:**
+  * MVC architecture and strict layer separation.
+  * Using DTOs for data transfer.
+* **New Challenges:**
+  * Session management for multi-step checkout (`@SessionAttributes`).
+  * File upload handling and storage (`MultipartFile`, `Paths`, configuration properties).
+  * Implementing complex, multi-parameter filtering (`getFilteredProducts`).
+* **Handling Unfamiliarity:**
+  * **Key Resource:** Heavy reliance on official Spring/Thymeleaf/Bootstrap documentation.
+  * **Debugging:** Using IDE debugger and extensive logging (`log.info`, `log.debug`) was critical (e.g., tracing the address saving constraint violation, debugging navbar model attributes).
+  * **Problem Decomposition:** Building features incrementally (Admin CRUD first, then User flows).
+  * **Online Resources:** Using Stack Overflow, Baeldung, etc., for specific error resolution and examples.
+  * **Applying Principles:** When errors occurred, analyzing the request flow, data lifecycle, and transaction boundaries helped identify root causes.
+
+*(Expand with specific framework features that were new, challenging errors encountered, how documentation/debugging helped, and specific principles applied to solve problems).*
+
+---
+
+## Slide 10: Demonstration (Optional but Recommended)
+
+* Brief live demonstration of key features:
+  * User Registration & Login
+  * Browsing/Filtering Products
+  * Adding to Cart & Checkout Process
+  * Viewing Order History
+  * Admin Login
+  * Admin Product Management (Show list/add/edit)
+  * Admin Order Management (Show list/details/update status)
+  * Admin User Management (Show list/details/toggle status)
+
+---
+
+## Slide 11: Conclusion & Future Work
+
+* **Summary:** Successfully developed a functional e-commerce platform demonstrating complex engineering activities through resource management (A1), component interaction (A2), and adaptation to unfamiliar technologies (A5). Leveraged Spring Boot, JPA, Security, and Thymeleaf to meet core requirements.
+* **Key Achievements:** Implemented end-to-end user shopping flow and comprehensive admin management modules. Addressed challenges related to data integrity, security configuration, and framework complexities.
+* **Future Work:**
+  * Implement Password Recovery Flow.
+  * Full Payment Gateway Integration & Manual Payment Verification Refinement.
+  * Implement Email Notifications (Order Confirmation, etc.).
+  * Refine UI/UX based on user feedback.
+  * Enhance Admin Dashboard with more analytics.
+  * Implement comprehensive testing suite (Unit, Integration, E2E).
+  * Security Hardening (CSRF review, advanced input validation).
+
+---
+
+## Slide 12: Q&A
+
+* Thank you. Questions?
 
 ---
