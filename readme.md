@@ -180,3 +180,140 @@ This list outlines the defined web endpoints, their HTTP methods, purpose, and r
 ---
 
 This list covers the endpoints we've explicitly defined or implemented controllers for. Remember that Spring Security handles `/login` (POST) and `/logout` (POST) implicitly based on configuration unless customized heavily. Static resources (`/css/**`, `/js/**`, `/images/**`, etc.) are handled by resource handlers, not specific controller endpoints.
+
+
+# Data Flow Diagram
+
+**Level 1 DFD Processes for Electronics Store:**
+
+1. User Authentication & Registration
+
+* Process: 1.0 Register New User
+* External Entity: User (Anonymous initially)
+* Data Flows In: Registration Form Data (Name, Email, Phone, Password, Address?)
+* Data Flows Out: Verification Email Trigger, User Account Record, Address Record?, Verification Token Record
+* Data Stores Accessed: User Store, Address Store?, Verification Store
+* Process: 2.0 Authenticate User
+* External Entity: User
+* Data Flows In: Login Credentials (Email, Password)
+* Data Flows Out: Session/Authentication Token, Login Success/Failure
+* Data Stores Accessed: User Store (Read), Role Store (Read)
+* Process: 3.0 Verify Email
+* External Entity: User
+* Data Flows In: Verification Token (from email link)
+* Data Flows Out: Account Enabled Status Update
+* Data Stores Accessed: Verification Store (Read/Update), User Store (Update)
+* Process: 4.0 Logout User
+* External Entity: User
+* Data Flows In: Logout Request
+* Data Flows Out: Session Invalidation
+* Data Stores Accessed: (None directly, handled by security framework)
+
+2. User Profile & Address Management
+
+* Process: 5.0 Manage User Profile
+* External Entity: User
+* Data Flows In: Profile Update Data (Name, Phone)
+* Data Flows Out: Updated Profile View, Profile Data
+* Data Stores Accessed: User Store (Read/Update)
+* Process: 6.0 Manage Addresses
+* External Entity: User
+* Data Flows In: New Address Data, Updated Address Data, Delete Request, Set Default Request
+* Data Flows Out: Address List View, Address Form View, Updated Address Record, Confirmation Messages
+* Data Stores Accessed: Address Store (CRUD), User Store (Read)
+* Process: 7.0 Change Password
+* External Entity: User
+* Data Flows In: Old Password, New Password, Confirm Password
+* Data Flows Out: Password Update Confirmation/Error
+* Data Stores Accessed: User Store (Read/Update)
+
+3. Product Browsing & Search
+
+* Process: 8.0 Browse/View Products
+* External Entity: User (Anonymous or Authenticated)
+* Data Flows In: Filter Criteria (Category ID, Brand ID, Price, New Arrival), Sort Criteria, Page Number, Search Query
+* Data Flows Out: Product List (Paginated), Product Details View
+* Data Stores Accessed: Product Store (Read), Category Store (Read), Brand Store (Read)
+
+4. Shopping Cart Management
+
+* Process: 9.0 Manage Cart Items
+* External Entity: User
+* Data Flows In: Product ID to Add, Quantity to Add, Cart Item ID to Update/Remove, Quantity to Update, Clear Cart Request
+* Data Flows Out: Updated Cart View, Confirmation Messages
+* Data Stores Accessed: Cart Store (CRUD), Product Store (Read - for stock/price), User Store (Read)
+
+5. Checkout & Order Placement
+
+* Process: 10.0 Process Checkout
+* External Entity: User
+* Data Flows In: Selected Shipping Address ID, Selected Payment Method
+* Data Flows Out: Shipping Address View, Payment Method View, Order Review View, Checkout State (Session)
+* Data Stores Accessed: Address Store (Read), Cart Store (Read), User Store (Read)
+* Process: 11.0 Place Order
+* External Entity: User
+* Data Flows In: Checkout Confirmation (Implicit from submitting review)
+* Data Flows Out: Order Record, OrderItem Records, Stock Level Update, Cleared Cart Items, Order Confirmation View/Email Trigger
+* Data Stores Accessed: Order Store (Create), OrderItem Store (Create), Product Store (Update - stock), Cart Store (Delete), User Store (Read), Address Store (Read - for shipping details)
+* Process: 12.0 Submit Payment Details
+* External Entity: User
+* Data Flows In: Transaction ID
+* Data Flows Out: Updated Order Payment Status/TrxID
+* Data Stores Accessed: Order Store (Update)
+
+6. User Order Viewing
+
+* Process: 13.0 View Order History/Details
+* External Entity: User
+* Data Flows In: Request for History (Paginated), Request for Specific Order ID
+* Data Flows Out: Order History List (Paginated), Order Details View
+* Data Stores Accessed: Order Store (Read), OrderItem Store (Read), Product Store (Read - for item details), User Store (Read)
+
+7. Admin Product Catalog Management
+
+* Process: 14.0 Manage Products (Admin)
+* External Entity: Admin
+* Data Flows In: Product Data (Create/Update), Product ID (Update/Delete), Image File, Toggle Status Request
+* Data Flows Out: Product List View, Product Form View, Confirmation Messages
+* Data Stores Accessed: Product Store (CRUD), Category Store (Read), Brand Store (Read), Warranty Store (Read)
+* Process: 15.0 Manage Categories (Admin)
+* External Entity: Admin
+* Data Flows In: Category Data (Create/Update), Category ID (Update/Delete)
+* Data Flows Out: Category List View, Category Form View, Confirmation Messages
+* Data Stores Accessed: Category Store (CRUD), Product Store (Read - for delete check)
+* Process: 16.0 Manage Brands (Admin)
+* External Entity: Admin
+* Data Flows In: Brand Data (Create/Update), Brand ID (Update/Delete), Logo File
+* Data Flows Out: Brand List View, Brand Form View, Confirmation Messages
+* Data Stores Accessed: Brand Store (CRUD), Product Store (Read - for delete check)
+* Process: 17.0 Manage Warranties (Admin)
+* External Entity: Admin
+* Data Flows In: Warranty Data (Create/Update), Warranty ID (Update/Delete)
+* Data Flows Out: Warranty List View, Warranty Form View, Confirmation Messages
+* Data Stores Accessed: Warranty Store (CRUD), Product Store (Read - for delete check)
+
+8. Admin Order Management
+
+* Process: 18.0 View/Manage All Orders (Admin)
+* External Entity: Admin
+* Data Flows In: Filter Criteria (Status), Sort Criteria, Page Number, Order ID (for details), New Order Status, New Payment Status, Transaction ID, Cancel Request
+* Data Flows Out: Order List View, Order Details View, Updated Order Status, Updated Payment Details, Confirmation Messages
+* Data Stores Accessed: Order Store (Read/Update), User Store (Read - for customer details), OrderItem Store (Read), Product Store (Read - for item details)
+
+9. Admin User Management
+
+* Process: 19.0 Manage Users (Admin)
+* External Entity: Admin
+* Data Flows In: User ID (for details), Toggle Status Request, Updated Role IDs
+* Data Flows Out: User List View, User Details View, Confirmation Messages
+* Data Stores Accessed: User Store (Read/Update), Role Store (Read/Update via User)
+
+10. Admin Dashboard
+
+* Process: 20.0 View Dashboard
+* External Entity: Admin
+* Data Flows In: Request for Dashboard
+* Data Flows Out: Dashboard View with Statistics (Counts, Revenue), Recent Orders List
+* Data Stores Accessed: User Store (Read - count), Product Store (Read - count), Order Store (Read - count, sum, list), Category Store (Read - count), Brand Store (Read - count)
+
+---
