@@ -55,8 +55,8 @@ public class Program
         Employee emp1 = new Employee(1, "John Doe", 30, "Manager");
         Employee emp2 = new Employee(2, "Jane Smith", 25, "Developer");
         // add employees to branch
-        branch.employees.Add(emp1);
-        branch.employees.Add(emp2);
+        branch.AddEmployee(emp1);
+        branch.AddEmployee(emp2);
         // display branch information
         Console.WriteLine(branch.ToString());
         // display employee information
@@ -71,9 +71,9 @@ public class Program
         PartTimeEmployee emp4 = new PartTimeEmployee(4, "Bob Brown", 22, "Intern",  20, 35);
         PartTimeEmployee emp5 = new PartTimeEmployee(5, "Charlie Green", 24, "Junior", 15, 40);
         // add employees to branch
-        branch2.employees.Add(emp3);
-        branch2.employees.Add(emp4);
-        branch2.employees.Add(emp5);
+        branch2.AddEmployee(emp3);
+        branch2.AddEmployee(emp4);
+        branch2.AddEmployee(emp5);
         // display branch information
         Console.WriteLine(branch2.ToString());
         // display employee information

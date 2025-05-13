@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\bin\Debug\net9.0\RandomPlay.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\bin\Debug\net9.0\RandomPlay.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\bin\Debug\net9.0\RandomPlay.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\bin\Debug\net9.0\RandomPlay.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\bin\Debug\net9.0\RandomPlay.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\RandomPlay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\RandomPlay.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\RandomPlay.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\RandomPlay.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\RandomPlay.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\RandomPlay.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\refint\RandomPlay.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\RandomPlay.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\RandomPlay.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\RandomPlay\obj\Debug\net9.0\ref\RandomPlay.dll

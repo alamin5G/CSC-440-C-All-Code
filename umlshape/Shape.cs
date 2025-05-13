@@ -1,7 +1,7 @@
 using System;
 
 class Shape{
-    private string color;
+    private string? color;
     private bool filled;
     
     public Shape(){

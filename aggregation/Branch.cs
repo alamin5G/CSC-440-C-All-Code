@@ -9,6 +9,7 @@ class Branch {
         this.name = name;
         this.location = location;
     }
+
     public Branch(Employee employee, string name, string location) {
         this.name = name;
         this.location = location;
@@ -19,7 +20,14 @@ class Branch {
         this.name = name;
     }
 
+    public void AddEmployee(Employee employee) {
+        employees.Add(employee);
+    }
+    public void RemoveEmployee(Employee employee) {
+        employees.Remove(employee);
+    }
+
     public override string ToString() {
-        return $"Branch Name: {name}, Location: {location}";
+        return $"Branch Name: {name}, Location: {location}, Employees: {employees.Count}";
     }
 }

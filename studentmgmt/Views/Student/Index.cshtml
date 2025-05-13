@@ -1,0 +1,28 @@
+@model List<studentmgmt.Models.Student>
+
+@{
+    ViewBag.Title = "Student List";
+}
+
+<h2>Registered Students</h2>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>Full Name</th>
+            <th>Department</th>
+            <th>CGPA</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.StudentID</td>
+                <td>@student.FullName</td>
+                <td>@student.Department</td>
+                <td>@student.CGPA</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\enumPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\enumPractice.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\enumPractice.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\enumPractice.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\enumPractice.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\bin\Debug\net9.0\enumPractice.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\bin\Debug\net9.0\enumPractice.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\bin\Debug\net9.0\enumPractice.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\bin\Debug\net9.0\enumPractice.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\bin\Debug\net9.0\enumPractice.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\enumPractice.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\refint\enumPractice.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\enumPractice.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\enumPractice.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\enumPractice\obj\Debug\net9.0\ref\enumPractice.dll

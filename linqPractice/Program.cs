@@ -16,7 +16,7 @@
         books.Add(book5);
         books.Add(book6);
 
-        IEnumerable<Book> bookQuery = from book in books
+        var bookQuery = from book in books
             where book.YearPublished > 2015 && book.Genre == "Science Fiction"
             
             select book;
@@ -25,6 +25,20 @@
         foreach (var book in bookQuery)
         {
             Console.WriteLine(book);
+        }
+
+        // LINQ query to find even numbers in an array
+         Console.WriteLine("Even numbers in the array:");
+        int[] numbers = [ 5, 10, 8, 3, 6, 12 ];
+        var evenNumbers = from number in numbers
+            where number % 2 == 0
+            orderby number descending
+            select number;
+
+        Console.WriteLine("Even numbers:");
+        foreach (var number in evenNumbers)
+        {
+            Console.WriteLine(number);
         }
     }
 }
