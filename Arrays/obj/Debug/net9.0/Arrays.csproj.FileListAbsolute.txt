@@ -1,0 +1,15 @@
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\bin\Debug\net9.0\Arrays.exe
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\bin\Debug\net9.0\Arrays.deps.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\bin\Debug\net9.0\Arrays.runtimeconfig.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\bin\Debug\net9.0\Arrays.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\bin\Debug\net9.0\Arrays.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\Arrays.AssemblyInfo.cs
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\Arrays.sourcelink.json
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\Arrays.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\refint\Arrays.dll
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\Arrays.pdb
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\Arrays.genruntimeconfig.cache
+C:\Users\alami\OneDrive\Documents\CSC-440-C-All-Code\Arrays\obj\Debug\net9.0\ref\Arrays.dll

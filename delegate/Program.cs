@@ -27,9 +27,13 @@ public class Program
         messageDelegate += ShowUppercaseMessage;
         messageDelegate("Multicast delegate example");
 
-        
+        // different delegate
         Worker w = new Worker();
         Manager m = new Manager();
-        m.AssignWork(w.DoTask);
+        // Assign the method to the delegate
+        Console.WriteLine("Enter the task: ");
+        // Read the task from the console
+        string task = Console.ReadLine();
+        m.AssignWork(w.DoTask, task);
     }
 }

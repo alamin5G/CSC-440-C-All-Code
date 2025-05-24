@@ -4,9 +4,9 @@ class MyClass{
     static void Main(string[] args){
         Console.WriteLine("Enter the row size of array: ");
         int row = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Enter the column size of array: ");
-        int col = Convert.ToInt32(Console.ReadLine());
-        //int[,] arr = new int[row, col];
+        // Console.WriteLine("Enter the column size of array: ");
+        // int col = Convert.ToInt32(Console.ReadLine());
+        // //int[,] arr = new int[row, col];
         // Create a jagged array
         int[][] jaggedArray = new int[row][];
         // Fill the jagged array with random numbers
@@ -16,7 +16,7 @@ class MyClass{
             Console.WriteLine("Enter the size of row " + i + ": ");
             int size = Convert.ToInt32(Console.ReadLine());
             jaggedArray[i] = new int[size];
-            for (int j = 0; j < size; j++){
+            for (int j = 0; j < jaggedArray[i].Length; j++){
                 jaggedArray[i][j] = rand.Next(1, 100);
             }
         }
