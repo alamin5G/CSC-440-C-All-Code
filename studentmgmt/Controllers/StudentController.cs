@@ -17,7 +17,7 @@ namespace studentmgmt.Controllers
         // GET: Student
         public IActionResult Index()
         {
-            return View(students);
+            return View();
         }
 
         // GET: Student/Create
